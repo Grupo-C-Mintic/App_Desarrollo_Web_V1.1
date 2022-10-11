@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Configuración y estilos de la página web-->
+    <head>
+        <!-- Método para permitir tíldes y letras especiales como ñ-->
+        <meta charset=utf-8>
+
+        <!--Título de la parte superior de la página web-->
+        <title>Pizzería Roma</title>
+    
+        <!--Llamado de la carpeta de estilos en CSS con el fin de llevar orden en la aplicación-->
+        <link rel="stylesheet" href="Estilos.css">  
+    
+        <!-- Se agrega icono al encabezado de la página web-->
+        <link rel="icon" type="image/png" href="Imagenes/Logo_Pizzeria.png">  
+    </head>
+    
+<!--Visualización de la página web-->
+    <body>
+        <!--Caja de encabezado (Logo, nombre, menú)-->
+        <header>
+            <div class="header_superior">
+            <a href="#" class="logo">
+                <img src="Imagenes/Logo_Pizzeria.png" style="width:75px" align="left">
+                <h1>PizzeríaRoma</h1>
+            </a>
+        <!--Creación caja de busqueda-->   
+            <div class="search">
+                <input type="Search" placeholder="Buscar">
+            </div>
+        <!--Creación de clase contenedor de menú y submenús-->            
+            </div>
+            <nav class="contenedor_menu">
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                        <ul class="submenu">
+                            <li><a href="#">Historia</a></li>
+                            <li><a href="#">Quiénes somos</a></li>
+                        </ul>
+                    <li><a href="#">Menu</a>
+                        <ul class="submenu">
+                            <li><a href="#">Entradas</a></li>
+                            <li><a href="#">Pizzas</a></li>
+                            <li><a href="#">Lasagna</a></li>
+                            <li><a href="#">Panzerotti</a></li>
+                            <li><a href="#">Spaguetti</a></li>
+                            <li><a href="#">Spaguetti</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contacto</a></li>
+                        <ul class="submenu">
+                            <li><a href="#">Bogotá</a></li>
+                            <li><a href="#">Cali</a></li>
+                            <li><a href="#">Medellín</a></li>
+                        </ul>
+                    <li><a href="#">Acceder</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <!-- Contendor de imagenes de comidas del restaurante -->
+            <div class="Contenedor-Pestanas">
+        
+            <!--******* Imagen Establecimiento de la pizzería *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">1 / 6</div>
+                <img src="Imagenes/Restaurante.jpg"style="width:100%">
+            </div>
+        
+            <!--******* Imagen 1 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">2 / 6</div>
+                <img src="Imagenes/Imagen_Pizza_1.jpg"style="width:100%">
+            </div>
+        
+            <!--******* Imagen 2 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">3 / 6</div>
+                <img src="Imagenes/Imagen_Pizza_2.jpg"style="width:100%">
+            </div>
+
+            <!--******* Imagen 3 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">4 / 6</div>
+                <img src="Imagenes/Imagen_Pizza_3.jpg"style="width:100%">
+            </div>
+
+            <!--******* Imagen 4 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">5 / 6</div>
+                <img src="Imagenes/Imagen_Pizza_4.jpg"style="width:100%">
+            </div>
+
+            <!--******* Imagen 5 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">5 / 6</div>
+                <img src="Imagenes/lasagna_1.jpg"style="width:100%">
+            </div>
+
+            <!--******* Imagen 6 *******-->
+            <div class="pestanas Desvanecer">
+                <div class="Numeros_Imagenes">6 / 6</div>
+                <img src="Imagenes/lasagna_2.jpg" style="width:100%">
+            </div>            
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+
+            <!-- Creación de pequeños circulos en la zona inferior de las imagenes de pizzas -->
+            <div style="text-align:center">
+            <span class="Circulos_Navegacion" onclick="currentSlide(1)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(2)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(3)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(4)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(5)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(6)"></span>
+            <span class="Circulos_Navegacion" onclick="currentSlide(7)"></span>
+            </div>
+
+        </main>
+
+        <footer>
+            <section class="Contendor-Columnas">
+            <div class="Tres-Columnas">
+                <!-- Breve historia del establecimiento -->
+                <h2>Historia</h2>
+                <p align="left"> 
+                    Pizzería Roma es fundada en 2018 por Antonio Cassano
+                    y Roberto Baggio, estableciendo el  
+                    primer punto de venta en el barrio quinta paredes  
+                    de Bogotá. 
+                    En 2019 abre un segundo establecimiento y en 
+                    2020 ya cuenta con cinco puntos de venta. 
+                    Entre los años 2020 y 2022 Pizzería Roma entra en un 
+                    proceso de expansión que lo lleva a crecer hasta los 12 puntos de venta.
+                    A principios del año 2021, también se crea la planta de producción
+                    y se estructura la empresa con sus gerencias.
+                </p>                    
+            </div>
+            <div class="Tres-Columnas">
+                <h2>Quienes somos</h2>
+                <p>
+                    Somos la marca líder en la categoría de pizza en Colombia, con más de
+                    10 puntos de ventas a nivel nacional, los cuales incluyen 3 franquicias
+                    operando actualmente. Este programa dio inicio a finales del 2021.
+                </p>
+            </div>
+            <div class="Tres-Columnas">
+                <h2>Donde nos encontramos</h2>
+                <p>Bogotá</p>
+                <ul class="sucursales_bogota">
+                    <li>Barrio Quinta paredes</li>
+                    <li>Centro comercial centro mayor</li>
+                    <li>Centro comercial tintal plaza</li>
+                    <li>Centro comercial titan plaza</li>
+                    <li>Centro comercial plaza de las américas</li>
+                    <li>Centro comercial portal 80</li>
+                </ul>
+                <p>Cali</p>
+                <ul class="sucursales_cali">
+                    <li>Centro comercial centenario</li>
+                    <li>Centro comercial jardín plaza</li>
+                    <li>Centro comercial chipichape</li>
+                </ul>
+                <p>Medellín</p>
+                <ul class="sucursales_medellin">
+                    <li>Centro comercial unicentro</li>
+                    <li>Centro comercial los molinos</li>
+                    <li>Centro comercial palacio nacional</li>
+                </ul>
+                <p>Horarios de atención:</p>
+                <ul class="horarios">
+                    <li>Bogotá, Domingo a Domingo de 10am - 9pm</li>
+                    <li>Cali, Lunes a viernes de 11am - 10pm</li>
+                    <li>Medellín, Lunes a sábado de 9am - 9pm</li>
+                </ul>                    
+            </div>
+        </section>
+            </section>
+
+        <!--Llamando la función Script.js la cual tiene la programación en JavaScript-->
+        <script type="text/javascript" src="Script.js"></script>
+        </footer>
+    </body>
+</html>

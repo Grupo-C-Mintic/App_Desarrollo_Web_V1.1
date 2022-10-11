@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+}
+ul, li, a, button{
+  text-decoration: none;
+  list-style: none;
+}
+/*Header*/
+    header{
+      width: 100%;
+      height: 120px;
+      position: sticky;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background: black;
+      display: flex;
+      flex-direction: column;
+    }
+
+/*Header superior*/
+    .header_superior{
+       max-width: 1280px;
+       width: 100%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 0;
+    }
+    .search input{
+      width: 300px;
+      max-height: 40px;
+      padding: 8px 16px;
+    }
+
+    .search {
+      margin: auto 0;    
+
+    }
+
+/*barra menu*/
+.contenedor_menu{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #eabe3f;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  max-width: 1280px;
+}
+
+    .logo{
+      display: flex;
+      align-items: center;
+    }
+    .logo img{
+      height: 80px;
+      margin-right: 10px;
+    }
+
+/*Color blanco de letra para título h1*/
+h1{
+  color: #ffffff;
+}
+
+/*Color fondo main*/
+
+main{
+  background-color: #eabf3f6e;
+  align-items: baseline;
+  padding: 20px;
+}
+
+/*Tamaño contenedor de imagenes*/
+
+.Contenedor-Pestanas {
+  width: 800px;
+  height: 550px;
+}
+
+/*Estilo para sección de links*/
+    a{
+      text-decoration: none;
+      color: #ffffff;
+
+    }
+
+    nav a{
+      font-weight: 600;
+      padding-right: 10px;
+    }
+
+    nav a:hover{
+      color: #eabe3f;
+    }
+
+
+/*Color dorado de letra para título h2*/
+    h2{
+        color: #eabe3f;
+    }
+
+/*Caja que contiene todas las columnas y estilo para columnas de información de la pizzería*/
+    .Contenedor-Columnas{
+        width: 100%;
+        margin: auto;
+    }
+
+    .Tres-Columnas{
+      display: flex 0;
+      align-items: center;
+      width: 33.33%;
+      float: left;
+    }
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.Contenedor-Pestanas {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.pestanas {
+  display: none;
+}
+
+/* Creación de estilo para flechas de avance y retroceso de las imagenes */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Al colocar el puntero del mouse sobre las flechas de navegación, se verá una pequeña sombra negra */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.Texto {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Numeros mostrados en la esquina superior de cada imagen */
+.Numeros_Imagenes {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Definiendo tamaño y color de los pequeños circulos ubicados en la parte inferior de las imagenes */
+.Circulos_Navegacion {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .Circulos_Navegacion:hover {
+    background-color: #eabe3f;
+    ; 
+}
+
+/* Desvanecimiento de la animación entre cambio de imagenes */
+.Desvanecer {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
