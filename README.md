@@ -1,13 +1,13 @@
 # Grupo C - Aplicación para desarrollo de software - MINTIC 2022
 
 ## Descripción de funciones de integrantes del grupo:
-> Product Owner:
+> **Product Owner**:
 Luis Carlos Martínez
 
-> Scrum Master:
+> **Scrum Master**:
 Santiago Martínez
 
-> Developer Team:
-Bladimir Lima
-Juan David Martínez
+> **Developer Team**:
+Bladimir Lima, 
+Juan David Martínez, 
 Luis Martinez Sanchez
